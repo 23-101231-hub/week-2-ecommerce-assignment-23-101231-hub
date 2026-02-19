@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+  }
+
+
+
+.food-body {
+    padding: 14px 6px 6px;
+  }
+  
+  .food-top {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .food-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #111;
+  }
+  
+  .food-price {
+    font-size: 18px;
+    font-weight: 700;
+    color: #111;
+    white-space: nowrap;
+  }
